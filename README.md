@@ -1,3 +1,4 @@
+
 # The Bookable Payable — End-to-End Autodraft Extraction System
 
 ## Executive Summary
@@ -106,3 +107,4 @@ pytest test_suite.py -v
 4. **Non-Payable Typologies**: Dunning reminders (`DU-08`), statutory contribution forms (`DU-09`), commercial price estimates (`INV-23`), and carrier waybills (`DU-05s`) are routed to `declined[]` rather than polluting accounts payable.
 
 For in-depth analysis and technical details, see [DESIGN.md](DESIGN.md) and [ANALYSIS.md](ANALYSIS.md).
+
