@@ -1,0 +1,111 @@
+{
+  "file": "INV-06.pdf",
+  "payables": [
+    {
+      "invoice_number": "8527907727",
+      "invoice_date": "2025-04-07",
+      "due_date": "2025-04-07",
+      "invoice_type": "INVOICE",
+      "currency": "ZAR",
+      "supplier": {
+        "name": "Meridian Mobility Ltd",
+        "supplier_id": "",
+        "address": "Jalan Ampang 23087",
+        "vat_id": "5471258869"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Immediate",
+      "po_number": "75884754",
+      "po_id": "",
+      "gross_total": "1683.98",
+      "subtotal": "1464.15",
+      "total_tax_amount": "169.83",
+      "discount_amount": "",
+      "freight_charges": "50.00",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "South Africa VAT 15%",
+          "tax_rate": "15",
+          "tax_amount": "169.83",
+          "tax_type_code": "ZAF_150_VAT"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Pnp Bananas Box 1.2kg (Zero Rated)",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "44.99",
+          "total": "44.99",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "Pnp Ripe&Ready Cling Peaches (Zero Rated)",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "56.99",
+          "total": "56.99",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "Pnp Red Grapes 500g (Zero Rated)",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "39.99",
+          "total": "39.99",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "Pnp White Grapes 500g (Zero Rated)",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "39.99",
+          "total": "39.99",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "taxes": []
+        },
+        {
+          "description": "Grocery Items Standard Rated Net",
+          "item_type": "GOODS",
+          "uom": "LOT",
+          "quantity": "1",
+          "unit_price": "1282.19",
+          "total": "1282.19",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

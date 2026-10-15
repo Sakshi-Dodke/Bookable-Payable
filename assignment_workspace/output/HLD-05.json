@@ -1,0 +1,79 @@
+{
+  "file": "HLD-05.pdf",
+  "payables": [
+    {
+      "invoice_number": "7769922058",
+      "invoice_date": "2026-06-12",
+      "due_date": "2026-07-12",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Distribeer Bebidas Lda",
+        "supplier_id": "2900456",
+        "address": "Zona Industrial 4, 2660-001 Loures, PT",
+        "vat_id": "PT502345678"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "54634-386-26-3530238",
+      "po_id": "",
+      "gross_total": "1012.14",
+      "subtotal": "835.27",
+      "total_tax_amount": "176.87",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "IVA",
+          "tax_name": "Portugal IVA 13%",
+          "tax_rate": "13",
+          "tax_amount": "19.82",
+          "tax_type_code": "PT_130_IVA"
+        },
+        {
+          "tax_type": "IVA",
+          "tax_name": "Portugal IVA 23%",
+          "tax_rate": "23",
+          "tax_amount": "157.05",
+          "tax_type_code": "PT_230_IVA"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Beverages & Supplies 13% IVA base",
+          "item_type": "GOODS",
+          "uom": "LOT",
+          "quantity": "1",
+          "unit_price": "152.46",
+          "total": "152.46",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Beverages & Supplies 23% IVA base",
+          "item_type": "GOODS",
+          "uom": "LOT",
+          "quantity": "1",
+          "unit_price": "682.81",
+          "total": "682.81",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

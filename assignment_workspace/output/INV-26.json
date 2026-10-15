@@ -1,0 +1,59 @@
+{
+  "file": "INV-26.pdf",
+  "payables": [
+    {
+      "invoice_number": "MSI-4055-020",
+      "invoice_date": "2025-02-08",
+      "due_date": "2025-02-08",
+      "invoice_type": "INVOICE",
+      "currency": "MYR",
+      "supplier": {
+        "name": "VMC Distribution Sdn Bhd",
+        "supplier_id": "2841753",
+        "address": "Jalan SS15/4, 47500 Subang Jaya, MY",
+        "vat_id": "MY202001012345"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Immediate",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "873.53",
+      "subtotal": "873.53",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "SST",
+          "tax_name": "Malaysia SST 0% / exempt",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "tax_type_code": "MY_000_SST"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Total Grocery & Store Supplies Exempt",
+          "item_type": "GOODS",
+          "uom": "LOT",
+          "quantity": "1",
+          "unit_price": "873.53",
+          "total": "873.53",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

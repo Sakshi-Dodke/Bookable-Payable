@@ -1,0 +1,10 @@
+{
+  "file": "DU-09.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "TAX_FORM",
+      "reason": "Statutory disclosure form is not a bookable payable"
+    }
+  ]
+}

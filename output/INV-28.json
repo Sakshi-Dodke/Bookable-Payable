@@ -1,0 +1,59 @@
+{
+  "file": "INV-28.pdf",
+  "payables": [
+    {
+      "invoice_number": "197218",
+      "invoice_date": "2026-02-28",
+      "due_date": "2026-03-30",
+      "invoice_type": "INVOICE",
+      "currency": "DKK",
+      "supplier": {
+        "name": "Silverbrook Print",
+        "supplier_id": "",
+        "address": "Rua do Ouro 40, 2605 Brondby, Danmark",
+        "vat_id": "DK74347584"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "4478.20",
+      "subtotal": "3582.56",
+      "total_tax_amount": "895.64",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Denmark VAT 25%",
+          "tax_rate": "25",
+          "tax_amount": "895.64",
+          "tax_type_code": "DK_250_VAT"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Afregning Februar 2026 Materialer og Transport",
+          "item_type": "SERVICE",
+          "uom": "LOT",
+          "quantity": "1",
+          "unit_price": "3582.56",
+          "total": "3582.56",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

@@ -1,0 +1,59 @@
+{
+  "file": "INV-31.pdf",
+  "payables": [
+    {
+      "invoice_number": "92990-35018",
+      "invoice_date": "2018-05-16",
+      "due_date": "2018-06-08",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "PECO - Payment Processing",
+        "supplier_id": "",
+        "address": "PO Box 37632, Philadelphia, PA 19101-0629",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "16299",
+      "po_id": "",
+      "gross_total": "17657.53",
+      "subtotal": "17657.53",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "USE",
+          "tax_name": "US Use Tax (self-assessed)",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "tax_type_code": "US_U1_USE"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "PECO ELECTRIC DELIVERY & SUPPLY",
+          "item_type": "SERVICE",
+          "uom": "kWh",
+          "quantity": "219744",
+          "unit_price": "0.080355",
+          "total": "17657.53",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

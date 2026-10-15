@@ -1,0 +1,59 @@
+{
+  "file": "DU-02.pdf",
+  "payables": [
+    {
+      "invoice_number": "554701215",
+      "invoice_date": "2026-06-01",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Novatek U.S. LLC",
+        "supplier_id": "",
+        "address": "Kadaka tee 711, 1830 Machelen, Belgium",
+        "vat_id": "BE2480635349"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "5191407",
+      "po_id": "",
+      "gross_total": "37534.94",
+      "subtotal": "37534.94",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Zero-rated export 0%",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "tax_type_code": "DE_000_RC"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Customs Consolidated Invoice Items 1-21",
+          "item_type": "GOODS",
+          "uom": "PC",
+          "quantity": "63",
+          "unit_price": "595.792698",
+          "total": "37534.94",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

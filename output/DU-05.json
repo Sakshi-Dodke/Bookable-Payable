@@ -1,0 +1,59 @@
+{
+  "file": "DU-05.pdf",
+  "payables": [
+    {
+      "invoice_number": "7363916",
+      "invoice_date": "2026-06-30",
+      "due_date": "2026-09-28",
+      "invoice_type": "INVOICE",
+      "currency": "SGD",
+      "supplier": {
+        "name": "Vantek Asia Pte Ltd.",
+        "supplier_id": "",
+        "address": "High Street 7, #03-66/67/68/69, Singapore 737664",
+        "vat_id": "207490313H"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_90",
+      "po_number": "3057199",
+      "po_id": "",
+      "gross_total": "771.66",
+      "subtotal": "771.66",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "GST",
+          "tax_name": "Singapore GST 0% / zero-rated",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "tax_type_code": "SG_000_GST"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "F:WSA_89424080_HSS(N)H2940DKC",
+          "item_type": "GOODS",
+          "uom": "PC",
+          "quantity": "100",
+          "unit_price": "7.7166",
+          "total": "771.66",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

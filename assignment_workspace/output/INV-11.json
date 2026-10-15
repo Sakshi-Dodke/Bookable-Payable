@@ -1,0 +1,98 @@
+{
+  "file": "INV-11.pdf",
+  "payables": [
+    {
+      "invoice_number": "STK-PT001-26-000084",
+      "invoice_date": "2026-04-01",
+      "due_date": "2026-04-28",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Meridian Media",
+        "supplier_id": "",
+        "address": "Soo Jo?o da Talha",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "",
+      "po_number": "FJ19363",
+      "po_id": "",
+      "gross_total": "83.21",
+      "subtotal": "67.10",
+      "total_tax_amount": "16.11",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Estonian VAT 24%",
+          "tax_rate": "24",
+          "tax_amount": "16.11",
+          "tax_type_code": "EST_240_VAT"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "AGREED PICKUP FEE",
+          "item_type": "FREIGHT",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "5.00",
+          "total": "5.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "TARNEKULUD",
+          "item_type": "FREIGHT",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "53.40",
+          "total": "53.40",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "AGREED DELIVERY FEE",
+          "item_type": "FREIGHT",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "5.00",
+          "total": "5.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "BAF 6,93%",
+          "item_type": "FREIGHT",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "3.70",
+          "total": "3.70",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

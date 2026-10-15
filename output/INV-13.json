@@ -1,0 +1,80 @@
+{
+  "file": "INV-13.pdf",
+  "payables": [
+    {
+      "invoice_number": "1410",
+      "invoice_date": "2026-04-30",
+      "due_date": "2026-05-30",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Cloverdale Supply OU",
+        "supplier_id": "",
+        "address": "High Street 64, Eesti",
+        "vat_id": "EE085819779"
+      },
+      "buyer": {
+        "company_code": "BOLTGROUP",
+        "business_unit_code": "EE001",
+        "location_code": "LOC_EE_001"
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "152587.46",
+      "subtotal": "127564.34",
+      "total_tax_amount": "25023.12",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Parking services 0% VAT",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "23301.32",
+          "total": "23301.32",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "Estonian VAT 0%",
+              "tax_rate": "0",
+              "tax_amount": "0.00",
+              "tax_type_code": "EST_000_VAT"
+            }
+          ]
+        },
+        {
+          "description": "Parking services 24% VAT",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "104263.02",
+          "total": "104263.02",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "24",
+          "tax_amount": "25023.12",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "Estonian VAT 24%",
+              "tax_rate": "24",
+              "tax_amount": "25023.12",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}
